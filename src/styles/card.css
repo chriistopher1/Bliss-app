@@ -1,0 +1,15 @@
+.card-interact {
+  position: relative;
+  top: 130px;
+  transition: 0.15s;
+}
+
+.card-container {
+  height: 24.5rem;
+  overflow:hidden;
+}
+
+.card-container:hover .card-interact {
+  display: flex;
+  top: 0px;
+}

@@ -1,0 +1,21 @@
+.custom-image{
+    height: auto;
+    width: 23rem;
+}
+
+.text-color{
+    color: red;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .custom-image{
+        display: none;
+    }
+
+    .container{
+        max-width: 22rem;
+    }
+
+}   
