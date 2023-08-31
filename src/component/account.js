@@ -56,7 +56,7 @@ export default function Account({ info }) {
             const userIdObject = {
               userId: data.user.id,
             };
-            const response = await fetch("http://localhost:3001/api/product/get/userinfo", {
+            const response = await fetch("https://bliss-express-server.vercel.app/api/product/get/userinfo", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
